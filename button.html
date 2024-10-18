@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Hobbies and Favorite Things</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/2c9fb86a1c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="path/to/favicon.ico" type="image/x-icon" />
+    <style>
+      body {
+        font-family: "Kumbh Sans", sans-serif;
+        background-color: #f0f4f8;
+        color: #333;
+      }
+
+      .main {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .main__img--container img {
+        width: 100%;
+        max-width: 600px;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #ffffff;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #fcfcfc;
+      }
+
+      h2 {
+        font-size: 1.75rem;
+        font-weight: 600;
+        color: #ff6363;
+      }
+
+      h3 {
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: #ff7979;
+      }
+
+      p {
+        font-size: 1.1rem;
+        margin: 10px 0;
+      }
+
+      .hobbies,
+      .favorites {
+        margin: 30px 0;
+      }
+
+      .hobby-container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin: 20px 0;
+      }
+
+      .hobby {
+        text-align: center;
+        width: 200px;
+      }
+
+      .hobby img {
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid #87ceeb;
+      }
+
+      .hobby h1 {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 10px;
+        color: #fffafa;
+      }
+
+      .favorites ul,
+      .favorites ol {
+        list-style: none;
+        padding: 0;
+      }
+
+      .favorites li {
+        color: #ffffff;
+        font-size: 1rem;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo">
+          <i class="fa-solid fa-dragon"></i> Shelou Cagulada
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="rapmon.html" class="navbar__links">Rap Monster</a>
+          </li>
+          <li class="navbar__item">
+            <a href="v.html" class="navbar__links">V</a>
+          </li>
+          <li class="navbar__item">
+            <a href="jungkook.html" class="navbar__links">Jungkook</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="index.html" class="button">HOME</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main">
+      <h2>✧⁠*⁠。My Hobbies and Favorite Things ✧⁠*⁠。</h2>
+      <h1>Here's a glimpse into some of the things I love and enjoy doing.</h1>
+      <div class="main__img--container">
+        <img src="images/ulol.jpg" alt="me" />
+      </div>
+
+      <!-- Hobbies Section -->
+      <section class="hobbies">
+        <h2>My Top 3 Hobbies</h2>
+        <div class="hobby-container">
+          <div class="hobby">
+            <h3>KDRAMA</h3>
+            <img src="images/kdram.jpg" alt="Kdrama" />
+            <h1>
+              I relax by watching Kdrama, which has become one of my favorite
+              pastimes.
+            </h1>
+          </div>
+          <div class="hobby">
+            <h3>PHOTOGRAPHY</h3>
+            <img src="images/hey.jpg" alt="Photography" />
+            <h1>I enjoy capturing moments through photography.</h1>
+          </div>
+          <div class="hobby">
+            <h3>EATING</h3>
+            <img src="images/drink.jpg" alt="Cooking" />
+            <h1>Experimenting with new recipes, especially baking.</h1>
+          </div>
+        </div>
+      </section>
+
+      <!-- Favorite Foods Section -->
+      <section class="favorites">
+        <h3>My Favorite Foods</h3>
+        <ol>
+          <li>Spaghetti</li>
+          <li>Pakbet</li>
+          <li>Chapsoy</li>
+          <li>Mango float</li>
+          <li>Burger steak</li>
+        </ol>
+
+        <h3>My Top 3 Goals</h3>
+        <ul>
+          <li>Survive college life</li>
+          <li>Have a stable job</li>
+          <li>Be happy and content in life</li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
